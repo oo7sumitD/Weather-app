@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background:linear-gradient(300deg,#ced1d6,#bfc0c0);
+    font-family: 'Merriweather', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+input
+{
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-family: inherit;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 1rem;
+    min-width: 300px;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+.weather
+{
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.weather h1
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.weather img
+{
+    margin-top: -2.5rem;
+    transform: scale(1);
+}
